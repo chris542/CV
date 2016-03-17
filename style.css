@@ -1,0 +1,54 @@
+/*Colour Theme
+grey:5c5c5c
+lightgrey: 77787b
+Red : d2232a
+black: 231f20  */
+
+.header {
+  border:0px none;
+  background: url('image/head_bg.png') fixed no-repeat;
+  background-size: cover;
+  background-position: 0% -380px;
+  color:#77787b;
+
+}
+
+.nav{ /* Navigation Box*/
+  padding:0px;
+  border-radius:5px;
+  background-color:#5c5c5c;
+}
+
+.nav_h1 { /*Navition Heading*/
+  text-align: center;
+  padding:15px;
+  color:white;
+}
+
+.nav_ul> a { /* Menus */
+  font-size: 2em;
+  display:block;
+  border-bottom: 1px solid #231f20;
+  padding: 15px;
+  background-color:#d2232a;
+  color:white;
+  width:80%;
+  margin:auto;
+}
+
+a.active_nav{
+  background-color: black;
+  color:inherit;
+  text-decoration: none;
+  color:white;
+  transform:scale(1.02,1.02);
+  transition: all 0.5s ease;
+}
+
+.info_top, .info_bottom{
+  padding:25px;
+}
+
+div{
+  border: dashed pink 0.5px;
+}
